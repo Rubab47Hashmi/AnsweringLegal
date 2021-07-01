@@ -1,0 +1,345 @@
+@media screen and (min-width: 1500px) {
+  .tn-options {
+    flex: 0.75;
+  }
+}
+@media screen and (max-width: 1000px) {
+	.top-nav {
+	  display: none;
+	}
+	.mob-header-box
+	{
+		display: block;
+	}
+  .tn-team h4 {
+    font-size: 2.5rem;
+  }
+  .tn-team p {
+    font-size: 1.5rem;
+    padding: 1rem 0 1.5rem 0;
+  }
+  .tn-team {
+    transform: translate(0%, 0%);
+	position: relative;
+	width: 100%;
+  }
+  .makes-different-box {
+    width: 90%;
+	transform: translate(0,0);
+  }
+  .md-main-box {
+    padding: 1.5rem;
+  }
+  .attorneys-box img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .attorneys-box h6 {
+    margin: 0 0 0 0.75rem;
+  }
+  .greeting-call-box {
+    padding: 0 5%;
+  }
+  .gc-para-box h5 {
+    width: 100%;
+  }
+  .gc-para-box p {
+    width: 100%;
+  }
+  .msg-main-box {
+    padding: 1rem 1.5rem 1rem 1rem;
+    margin: 0 0 2rem 0;
+  }
+  .text-img-box {
+    width: 10rem;
+    height: 10rem;
+  }
+  .text-img-box img {
+    width: 10rem;
+    height: 10rem;
+  }
+  .s-img-detail {
+    grid-template-columns: 10rem 10rem 10rem;
+  }
+  .service-main-box {
+    padding: 0 5%;
+  }
+  .joining-box h4 {
+    width: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .indutry-prob-solu-box {
+    padding: 5rem 5%;
+  }
+  .customer-box {
+    margin: 2.5rem 0;
+  }
+
+  .customer-compliment-box {
+    padding: 0 5%;
+  }
+  .cc-main-box {
+    width: 31%;
+  }
+  .phone-email-box div:nth-child(2) {
+    margin: 0 0 0 1.5rem;
+  }
+  .phone-box p,
+  .email-box p {
+    width: 100%;
+  }
+  .top-nav {
+    padding: 2.5rem;
+  }
+  .tn-btn-box button {
+    font-size: 1.35rem;
+    padding: 0.5rem 2rem;
+  }
+  .tn-logo h1 {
+    margin: 0 1.5rem 0 0;
+    font-size: 1.5rem;
+  }
+  .tn-btn-box a {
+    margin: 0 1.5rem;
+  }
+  .tn-options a {
+    font-size: 1.25rem;
+  }
+  .answering-legal-main-box
+  {
+	  flex-direction: column;
+	  height: unset;
+	  align-items: flex-start;
+	  justify-content: flex-start;
+	  padding: 15rem 2.5rem 6rem 2.5rem;
+  }
+  .main-bg-img img
+
+  {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  z-index: -1;
+	  width: 100vw;
+	  height: 65vh;
+  }
+  .main-bg-img
+  {
+	  position: unset;
+  }
+}
+@media screen and (max-width: 500px) {
+	.customer-compliment-box {
+		display: none;
+	  }
+  .md-box-details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .attorneys-main {
+    width: 100%;
+  }
+  .am-line {
+    width: 35%;
+    height: 1px;
+    border: 0;
+    background-color: rgba(151, 151, 151, 0.35);
+    margin: 2.5rem 0;
+  }
+  .greeting-call-box {
+    flex-direction: column-reverse;
+  }
+  .gc-msg-box {
+    width: 100%;
+  }
+  .gc-para-box {
+    width: 100%;
+    margin: 0 0 2.5rem 0;
+  }
+  .msg-main-box {
+    width: 87.5%;
+  }
+  .service-main-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .attorneys-box h6 {
+    font-size: 1.6rem;
+  }
+  .attorneys-box img {
+    width: 3rem;
+    height: 3rem;
+  }
+  .attorneys-main p {
+    font-size: 1.5rem;
+  }
+  .makes-different-box h2 {
+    font-size: 1.95rem;
+    margin-top: 1.5rem;
+  }
+  .gc-para-box h5 {
+    font-size: 2.5rem;
+  }
+  .gc-para-box p {
+    font-size: 1.6rem;
+  }
+  .msg-main-box p {
+    font-size: 1.25rem;
+  }
+  .service-detail-box p {
+    font-size: 1.6rem;
+  }
+  .service-detail-box {
+    width: 100%;
+    margin: 0 0 2.5rem 0;
+  }
+  .service-detail-box button {
+    padding: 0.75rem 1.5rem;
+  }
+  .joining-box h4 {
+    font-size: 2.25rem;
+    text-align: left;
+  }
+  .industry-prob-box p {
+    font-size: 1.5rem;
+  }
+  .joining-box img {
+    max-height: 150%;
+    height: 25rem;
+  }
+  .cc-main-para h6 {
+    font-size: 1.6rem;
+  }
+  .cc-main-para p {
+    font-size: 1.35rem;
+  }
+  .more-reading a {
+    font-size: 1.15rem;
+  }
+  .copyright-box span {
+    font-size: 1.25rem;
+  }
+  .indutry-prob-solu-box {
+    flex-direction: column;
+  }
+  .industry-prob-box:nth-child(2) {
+    margin: 2.5rem 0 0 0;
+  }
+  .industry-prob-box p {
+    width: 100%;
+  }
+  .customer-box h6 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+  }
+  .customer-box p {
+    width: 90%;
+    margin: 1rem 0 0 0;
+  }
+  .phone-email-box {
+    flex-direction: column;
+  }
+  .phone-email-box div:nth-child(2) {
+    margin: 2.5rem 0 0 0;
+  }
+  .contact-main-box {
+    padding: 5rem 7.5%;
+  }
+  .copyright-box {
+    padding: 2.5rem 5%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .copyright-box span {
+    margin: 1rem 0 0 0;
+  }
+  .service-detail-box p {
+    width: 100%;
+  }
+  .cc-main-box {
+    width: 100%;
+  }
+  .swiper-c {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 0 2.5rem 0;
+  }
+  .swiper-c .swiper-slide {
+    width: 60% !important;
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+  }
+  .contact-main-box {
+    margin: 2.5rem 0 0 0;
+  }
+  .swiper-pagination {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .swiper-pagination-bullet-active {
+    background: #ffb83f;
+  }
+  .swiper-pagination-bullet {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0 0.15rem;
+  }
+  /* .swiper-wrapper
+  {
+    justify-content: center;
+  } */
+  .customer-compliment-box-mob {
+    display: block;
+  }
+  .cc-main-para {
+    padding: 1rem;
+  }
+  /* .swiper-slide
+  {
+    overflow: visible;
+  position: relative;
+  width: 70% !important;
+  }
+  .swiper-wrapper
+  {
+    overflow: visible;
+    position: relative;
+    max-width:310px;
+    margin:0 auto;
+  }
+  .swiper-slide > div {
+    float:left;
+    position: relative;
+  }
+  .swiper-c{
+    overflow: hidden;
+    width: 620px;
+  } */
+  /*   .tn-options {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.top-nav #icon {
+ display: block;
+}
+.tn-options a {
+  position: fixed;
+  left: 0;
+  top: -100%;
+  text-align: center;
+  width: 100%;
+  color: black;
+  background-color: teal;
+  transition: all .5s;
+}
+.tn-options a.show{
+  left: 0;
+} */
+}
